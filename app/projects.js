@@ -1,0 +1,35 @@
+export const projects = [
+  {
+    number: "01",
+    title: "Garden Touch Rugby",
+    description: "A rugby project. Visit the repository to explore the source code and project details.",
+    category: "RUGBY PROJECT",
+    stack: "GITHUB REPOSITORY",
+    link: "https://github.com/Cassssiem/Garden-Touch-Rugby",
+    image: "/garden-touch-rugby.png",
+    theme: "mint",
+    symbol: "◒",
+  },
+  {
+    number: "02",
+    title: "Rugby Team Management System",
+    description:
+      "A full-stack club management system for player profiles, matches, team lineups, accounts, and sponsor inquiries.",
+    category: "FULL-STACK APPLICATION",
+    stack: "C# · ASP.NET CORE · REACT · TYPESCRIPT",
+    link: "https://github.com/Cassssiem/RugbyManagementSystem/tree/Main",
+    theme: "peach",
+    symbol: "✳",
+  },
+  {
+    number: "03",
+    title: "Inyosi Empowerment",
+    description: "A project from the redAcademy team. Visit the repository to see the project and its implementation.",
+    category: "redAcademy PROJECT",
+    stack: "GITHUB REPOSITORY",
+    link: "https://github.com/redacademysa-dev/inyosi-empowerment",
+    image: "/Inyosi.webp",
+    theme: "lilac",
+    symbol: "⌘",
+  },
+];
