@@ -25,4 +25,4 @@ Press `Ctrl+C` in the terminal to stop the development server.
 3. Copy `.env.example` to `.env.local` and replace `your_form_id` with the ID from the Formspree Integration tab.
 4. Restart the Next.js development server. The contact form will then submit to Formspree.
 
-Until the form ID is set, the contact section provides a direct email link instead.
+Until the form ID is set, the contact section provides a direct email link instead. 
