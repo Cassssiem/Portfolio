@@ -25,7 +25,7 @@ function ProjectCard({ project }) {
         href={project.link}
         target="_blank"
         rel="noreferrer"
-        aria-label={`View ${project.title} on GitHub (opens in a new tab)`}
+        aria-label={`Open ${project.title} project (opens in a new tab)`}
       >
         {hasProjectImage ? (
           <Image className="project-image" src={project.image} alt={`${project.title} interface`} fill sizes="(max-width: 680px) 100vw, (max-width: 1050px) 50vw, 33vw" />
@@ -96,7 +96,7 @@ export default function Home() {
               <h2 id="work-title">A few things<br /><span className="serif">I’ve made.</span></h2>
             </div>
             <p className="section-note">
-              A selection of projects I’ve worked on. Open any project to explore its GitHub repository.
+              A selection of projects I’ve worked on. Open any project to explore it.
             </p>
           </div>
           <div className="project-grid">

@@ -24,10 +24,10 @@ export const projects = [
   {
     number: "03",
     title: "Inyosi Empowerment",
-    description: "A project from the redAcademy team. Visit the repository to see the project and its implementation.",
+    description: "A project from the redAcademy team. Visit the live project to see it in action.",
     category: "redAcademy PROJECT",
-    stack: "GITHUB REPOSITORY",
-    link: "https://github.com/redacademysa-dev/inyosi-empowerment",
+    stack: "LIVE PROJECT",
+    link: "https://inyosi-empowerment.vercel.app/",
     image: "/Inyosi.webp",
     theme: "lilac",
     symbol: "⌘",
